@@ -52,3 +52,10 @@ The adversary did not hack our systems; they hacked human psychology and flawed 
 [Azure AD issues JWT] -> Cookie sent back... BUT intercepted by Tycoon Proxy.
                          Attacker injects stolen cookie into their browser.
                          *Aegis Network Penetrated.*
+
+Phase,Tactics & Techniques,Forensic Reality (How They Did It),Architectural Failure (Why We Missed It)
+Initial Access,T1566.002 (Spearphishing),"Email bypassed our Secure Email Gateway (SEG). The payload used HTML Smuggling to drop an obfuscated .LNK file, evading Mark of the Web (MotW).",SEG URL rewriting failed. We relied on users to spot a newly registered domain (aegis-logistcs-portal.com) while under end-of-quarter stress.
+Credential Access,T1539 (Steal Web Cookie),User approved the Push-MFA. Tycoon stole the JWT session token (valid for 90 days).,CRITICAL FLAW: We lacked Token Binding and Conditional Access. The IdP did not verify if the device was an Intune-managed corporate asset.
+Execution & Privilege,T1059 (Command Shell),".LNK executed a PowerShell cradle, pulling a PyInstaller RAT.","AppLocker was in ""Audit Only"" mode to prevent ""business friction."" Local Admin rights were never fully revoked."
+Defense Evasion,T1070 (Indicator Removal),Attacker used native commands to clear Event Log Security 4624 (Logon) to hide lateral pivoting.,"EDR was misconfigured to skip sandbox detonation for high-entropy files >30MB to ""save bandwidth."""
+Exfiltration,T1567.002 (Exfiltration to Cloud),Qilin used rclone to siphon 4.2TB to the Mega.nz API over 14 hours.,"Data Loss Prevention (DLP) failed. We had no network baseline for outbound anomalies, and non-sanctioned cloud storage was open."
