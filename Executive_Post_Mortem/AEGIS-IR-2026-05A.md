@@ -381,24 +381,6 @@ This breach will either become:
 
 ---
 
-# 🖥️ OPTIONAL GITHUB README ENHANCEMENTS
-
-## Recommended Fonts
-
-* Orbitron
-* Rajdhani
-* JetBrains Mono
-
-## Recommended Additions
-
-* Animated SVG headers
-* Glitch GIF banners
-* Collapsible forensic sections
-* Shields.io live badges
-* Dark-mode optimized diagrams
-
----
-
 <div align="center">
 
 ### `Security is no longer about passwords.`
