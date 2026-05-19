@@ -1,1 +1,45 @@
+Delivered-To: h.vandermeer@aegis-logistics.com
+Received: by 10.220.14.71 with SMTP id c11csp2401915vcb;
+        Tue, 12 May 2026 08:14:22 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJzxR2/L9+TjJqK... [REDACTED]
+X-Received: by 2002:a05:6a00:1c53:b0:671:11e9:9d8 with SMTP id d2...;
+        Tue, 12 May 2026 08:14:22 -0700 (PDT)
+Return-Path: <admin-noreply@aegis-logistcs-portal.com>
+Received: from mail.vps-host-node-99.xyz (mail.vps-host-node-99.xyz. [198.51.100.45])
+        by mx.google.com with ESMTPS id o18-20020a056a00055200b0069e...
+        for <h.vandermeer@aegis-logistics.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 12 May 2026 08:14:22 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       dkim=fail header.i=@aegis-logistcs-portal.com header.s=default header.b=XyZ123;
+       spf=softfail (google.com: domain of transitioning admin-noreply@aegis-logistcs-portal.com does not designate 198.51.100.45 as permitted sender) smtp.mailfrom=admin-noreply@aegis-logistcs-portal.com;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=aegis-logistcs-portal.com
+From: "Aegis IT Support" <admin-noreply@aegis-logistcs-portal.com>
+To: h.vandermeer@aegis-logistics.com
+Subject: URGENT: Mandatory MFA Token Sync Required (Action Needed by EOD)
+Date: Tue, 12 May 2026 15:14:10 +0000
+Message-ID: <20260512151410.9A8B7C6D@mail.vps-host-node-99.xyz>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_0012_01D9A8B7.C6D12340"
 
+------=_NextPart_000_0012_01D9A8B7.C6D12340
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear H. Vandermeer,
+
+Aegis Logistics is upgrading its Azure Active Directory security policies. =
+Due to recent updates in our zero-trust framework, your current multi-facto=
+r authentication (MFA) session token has expired.
+
+Failure to re-sync your session token by 17:00 CET today will result in a =
+loss of access to the Rotterdam Customs Manifest Portal.
+
+Please navigate to the secure tenant portal below to re-authenticate:
+
+hxxps://login[.]aegis-logistcs-portal[.]com/common/oauth2/authorize?client_id==3D4b8b-9c21-f4d
+
+Thank you,
+Global IT Helpdesk
+Aegis Logistics
+------=_NextPart_000_0012_01D9A8B7.C6D12340--
