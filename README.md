@@ -14,13 +14,13 @@
 
 ---
 
-## 🛑 THE EXECUTIVE HOOK
+## 🛑 FOR THE EXECUTIVES
 
-Modern enterprises do not fail because they lack security tools; they fail because their security architecture is optimized for *compliance*, not *resilience*. 
+Modern enterprises do not fail because they lack security tools... they fail because their security architecture is optimized for *compliance*, not *resilience*. 
 
-This repository is a **full-spectrum cybersecurity portfolio piece**. It demonstrates my ability to not only deconstruct a highly sophisticated, identity-based cyberattack at the packet/code level, but also to translate that technical catastrophe into actionable, board-level financial strategy.
+This repository is a **full-spectrum cybersecurity portfolio piece**. It demonstrates our ability to not only deconstruct a highly sophisticated, identity-based cyberattack at the packet/code level, but also to translate that technical catastrophe into actionable, board-level financial strategy.
 
-I do not just find malware. I engineer resilient architectures that render the malware irrelevant.
+We do not just find malware. We engineer resilient architectures that render the malware irrelevant.
 
 ---
 
@@ -31,7 +31,7 @@ I do not just find malware. I engineer resilient architectures that render the m
 **Attack Vector:** Tycoon 2FA (Adversary-in-the-Middle Phishing)
 **Business Impact:** 4.2TB Data Exfiltration, $4.5M Extortion Demand, SEC 8-K Trigger.
 
-I have simulated this entire breach from the ground up, providing the exact artifacts, telemetry, and executive communications required to triage, analyze, and remediate the disaster.
+We have simulated this entire breach from the ground up, providing the exact artifacts, telemetry, and executive communications required to triage, analyze, and remediate the disaster.
 
 ---
 
@@ -55,13 +55,13 @@ This repository is strictly divided into four operational domains to demonstrate
 
 ---
 
-## 🤝 HIRE ME: SECURE YOUR PERIMETER
+## 🤝 HIRE US: SECURE YOUR PERIMETER
 
 If your organization is relying on legacy Push-MFA and perimeter-based EDR, you are functionally compromised; the attackers just haven't realized it yet.
 
 **Let's build a network that assumes breach and mathematically guarantees containment.**
 
-📥 **Contact Me:** ghostbreachh@gmail.com  
+📥 **Contact Us at:** ghostbreachh@gmail.com  
 🌐 **YouTube:**  	www.youtube.com/@GhostBreach-mr
 
 <div align="center">
